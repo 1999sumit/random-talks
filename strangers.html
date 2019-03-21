@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Talk to strangers</title>
+	<style>
+	p{
+		float: right;
+		
+    }
+	h1
+	{
+		text-align: center;
+		background-color: grey;
+		z-index: -1
+	}
+	p::before
+	{
+		content: url(smiley.gif);
+	}
+    p::first-line
+    {
+    	color:red;
+    }
+     p::first-letter
+     {
+     	color:blue;
+     	font-size:xx-large;
+     }
+</style>
+</head>
+<body>
+	<h1>Talk To Random people</h1>
+	<p>You can talk here with random people</p>
+	<img src="avatars-000332262985-gh4ys6-original.jpg" width="1080"></img>
+
+	<input type="text" name="start" size="60"></input>
+	<br/>
+	<input type="submit" value="send"></input>
+</body>
+</html>
